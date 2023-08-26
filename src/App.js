@@ -1,10 +1,15 @@
-import "./App.css";
+import "./main.css";
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<p>My First Chrome Extention</p>
+		<div className="h-10">
+			<header className="p-2">
+				<p className="text-2xl text-red-700 text-center">
+					My First Chrome Extention
+				</p>
+				<p className="text-lg text-red-700 text-center">
+					My First Chrome Extention
+				</p>
 			</header>
 		</div>
 	);
